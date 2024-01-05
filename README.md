@@ -99,6 +99,6 @@ Git хранит таблицу соответствий хеш → информ
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked/comitted;
-  tracked/commited -- "changing file" --> modified
+  tracked/comited -- "changing file" --> modified
   modified -- "git add" --> staged;
 ```
